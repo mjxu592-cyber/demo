@@ -1,0 +1,2205 @@
+{
+  "schemaVersion": 1,
+  "snapshotId": "2026-10-13_1030",
+  "updatedAt": "2026-10-13T10:30:00+08:00",
+  "displayTimezone": "Asia/Shanghai",
+  "dataKind": "illustrative",
+  "dataNotice": "用于界面预览的人工构造数据。仅标的代码与名称参考所附PDF；价格、涨跌幅、时间、财报日期、交易状态、信号及离场条件均不代表真实行情或策略计算结果。",
+  "macro": [
+    {
+      "id": "US.ES1!",
+      "market": "US",
+      "ticker": "ES1!",
+      "name": "标普500指数期货",
+      "assetType": "future",
+      "price": 7860.38,
+      "decimals": 2,
+      "priceUnit": "currency",
+      "currency": "美元",
+      "changePct": 0.79,
+      "changeBasis": "相对前一交易日收盘价",
+      "session": "regular",
+      "quoteAt": "2026-10-13T10:29:58+08:00",
+      "signals": [
+        {
+          "type": "trendStart",
+          "direction": "long",
+          "timeframe": "日线"
+        }
+      ],
+      "earnings": null,
+      "source": {
+        "document": "1012 macro1 速查 全.pdf",
+        "page": 13,
+        "usage": "仅引用标的代码与名称，数值和信号为人工构造"
+      },
+      "dataKind": "illustrative"
+    },
+    {
+      "id": "US.NQ1!",
+      "market": "US",
+      "ticker": "NQ1!",
+      "name": "纳斯达克100指数期货",
+      "assetType": "future",
+      "price": 31143.58,
+      "decimals": 2,
+      "priceUnit": "currency",
+      "currency": "美元",
+      "changePct": 1.11,
+      "changeBasis": "相对前一交易日收盘价",
+      "session": "regular",
+      "quoteAt": "2026-10-13T10:29:44+08:00",
+      "signals": [
+        {
+          "type": "pullback",
+          "direction": "long",
+          "timeframe": "日线"
+        }
+      ],
+      "earnings": null,
+      "source": {
+        "document": "1012 macro1 速查 全.pdf",
+        "page": 10,
+        "usage": "仅引用标的代码与名称，数值和信号为人工构造"
+      },
+      "dataKind": "illustrative"
+    },
+    {
+      "id": "US.YM1!",
+      "market": "US",
+      "ticker": "YM1!",
+      "name": "道琼斯指数期货",
+      "assetType": "future",
+      "price": 52246.0,
+      "decimals": 0,
+      "priceUnit": "currency",
+      "currency": "美元",
+      "changePct": -0.22,
+      "changeBasis": "相对前一交易日收盘价",
+      "session": "regular",
+      "quoteAt": "2026-10-13T10:29:47+08:00",
+      "signals": [
+        {
+          "type": "support",
+          "direction": "long",
+          "timeframe": "日线"
+        }
+      ],
+      "earnings": null,
+      "source": {
+        "document": "1012 macro1 速查 全.pdf",
+        "page": 2,
+        "usage": "仅引用标的代码与名称，数值和信号为人工构造"
+      },
+      "dataKind": "illustrative"
+    },
+    {
+      "id": "US.US10Y",
+      "market": "US",
+      "ticker": "US10Y",
+      "name": "美国10年期国债收益率",
+      "assetType": "yield",
+      "price": 5.16,
+      "decimals": 2,
+      "priceUnit": "percent",
+      "currency": "美元",
+      "changePct": -0.27,
+      "changeBasis": "收益率相对上一观测值的百分比变化",
+      "session": "closed",
+      "quoteAt": "2026-10-13T04:00:00+08:00",
+      "signals": [
+        {
+          "type": "trendStart",
+          "direction": "short",
+          "timeframe": "日线"
+        }
+      ],
+      "earnings": null,
+      "source": {
+        "document": "1012 macro1 速查 全.pdf",
+        "page": 57,
+        "usage": "仅引用标的代码与名称，数值和信号为人工构造"
+      },
+      "dataKind": "illustrative"
+    },
+    {
+      "id": "US.XAUUSD",
+      "market": "US",
+      "ticker": "XAUUSD",
+      "name": "黄金现货",
+      "assetType": "spot",
+      "price": 4200.88,
+      "decimals": 2,
+      "priceUnit": "currency",
+      "currency": "美元",
+      "changePct": 0.29,
+      "changeBasis": "相对前一交易日收盘价",
+      "session": "regular",
+      "quoteAt": "2026-10-13T10:29:49+08:00",
+      "signals": [
+        {
+          "type": "support",
+          "direction": "long",
+          "timeframe": "日线"
+        }
+      ],
+      "earnings": null,
+      "source": {
+        "document": "1012 macro1 速查 全.pdf",
+        "page": 2,
+        "usage": "仅引用标的代码与名称，数值和信号为人工构造"
+      },
+      "dataKind": "illustrative"
+    },
+    {
+      "id": "US.XAGUSD",
+      "market": "US",
+      "ticker": "XAGUSD",
+      "name": "白银现货",
+      "assetType": "spot",
+      "price": 62.08,
+      "decimals": 2,
+      "priceUnit": "currency",
+      "currency": "美元",
+      "changePct": 1.29,
+      "changeBasis": "相对前一交易日收盘价",
+      "session": "regular",
+      "quoteAt": "2026-10-13T10:29:30+08:00",
+      "signals": [
+        {
+          "type": "trendStart",
+          "direction": "long",
+          "timeframe": "日线"
+        }
+      ],
+      "earnings": null,
+      "source": {
+        "document": "1012 macro1 速查 全.pdf",
+        "page": 2,
+        "usage": "仅引用标的代码与名称，数值和信号为人工构造"
+      },
+      "dataKind": "illustrative"
+    },
+    {
+      "id": "US.USOIL",
+      "market": "US",
+      "ticker": "USOIL",
+      "name": "原油",
+      "assetType": "spot",
+      "price": 92.04,
+      "decimals": 2,
+      "priceUnit": "currency",
+      "currency": "美元",
+      "changePct": -0.33,
+      "changeBasis": "相对前一交易日收盘价",
+      "session": "regular",
+      "quoteAt": "2026-10-13T10:29:46+08:00",
+      "signals": [
+        {
+          "type": "earlyExit",
+          "direction": "short",
+          "timeframe": "日线"
+        }
+      ],
+      "earnings": null,
+      "source": {
+        "document": "1012 macro1 速查 全.pdf",
+        "page": 34,
+        "usage": "仅引用标的代码与名称，数值和信号为人工构造"
+      },
+      "dataKind": "illustrative"
+    },
+    {
+      "id": "HK.HSI1!",
+      "market": "HK",
+      "ticker": "HSI1!",
+      "name": "恒生指数期货",
+      "assetType": "future",
+      "price": 24434.0,
+      "decimals": 0,
+      "priceUnit": "currency",
+      "currency": "港元",
+      "changePct": 1.04,
+      "changeBasis": "相对前一交易日收盘价",
+      "session": "regular",
+      "quoteAt": "2026-10-13T10:29:59+08:00",
+      "signals": [
+        {
+          "type": "support",
+          "direction": "long",
+          "timeframe": "日线"
+        }
+      ],
+      "earnings": null,
+      "source": {
+        "document": "1013 亚太 1625 全.pdf",
+        "page": 4,
+        "usage": "仅引用标的代码与名称，数值和信号为人工构造"
+      },
+      "dataKind": "illustrative"
+    },
+    {
+      "id": "CN.IF1!",
+      "market": "CN",
+      "ticker": "IF1!",
+      "name": "沪深300指数期货",
+      "assetType": "future",
+      "price": 4309.0,
+      "decimals": 1,
+      "priceUnit": "currency",
+      "currency": "人民币",
+      "changePct": 0.04,
+      "changeBasis": "相对前一交易日收盘价",
+      "session": "regular",
+      "quoteAt": "2026-10-13T10:29:47+08:00",
+      "signals": [
+        {
+          "type": "trendStart",
+          "direction": "long",
+          "timeframe": "日线"
+        }
+      ],
+      "earnings": null,
+      "source": {
+        "document": "1012 macro1 速查 全.pdf",
+        "page": 35,
+        "usage": "仅引用标的代码与名称，数值和信号为人工构造"
+      },
+      "dataKind": "illustrative"
+    },
+    {
+      "id": "JP.NK2251!",
+      "market": "JP",
+      "ticker": "NK2251!",
+      "name": "日经225指数期货",
+      "assetType": "future",
+      "price": 68718.0,
+      "decimals": 0,
+      "priceUnit": "currency",
+      "currency": "日元",
+      "changePct": -0.46,
+      "changeBasis": "相对前一交易日收盘价",
+      "session": "regular",
+      "quoteAt": "2026-10-13T10:29:30+08:00",
+      "signals": [
+        {
+          "type": "trendStart",
+          "direction": "long",
+          "timeframe": "日线"
+        }
+      ],
+      "earnings": null,
+      "source": {
+        "document": "1012 macro1 速查 全.pdf",
+        "page": 2,
+        "usage": "仅引用标的代码与名称，数值和信号为人工构造"
+      },
+      "dataKind": "illustrative"
+    },
+    {
+      "id": "KR.K2I1!",
+      "market": "KR",
+      "ticker": "K2I1!",
+      "name": "韩国KOSPI200指数期货",
+      "assetType": "future",
+      "price": 635.81,
+      "decimals": 2,
+      "priceUnit": "currency",
+      "currency": "韩元",
+      "changePct": -0.92,
+      "changeBasis": "相对前一交易日收盘价",
+      "session": "regular",
+      "quoteAt": "2026-10-13T10:29:33+08:00",
+      "signals": [
+        {
+          "type": "trendStart",
+          "direction": "short",
+          "timeframe": "日线"
+        }
+      ],
+      "earnings": null,
+      "source": {
+        "document": "1012 macro1 速查 全.pdf",
+        "page": 31,
+        "usage": "仅引用标的代码与名称，数值和信号为人工构造"
+      },
+      "dataKind": "illustrative"
+    },
+    {
+      "id": "US.DXY",
+      "market": "US",
+      "ticker": "DXY",
+      "name": "美元指数",
+      "assetType": "index",
+      "price": 101.26,
+      "decimals": 2,
+      "priceUnit": "currency",
+      "currency": "美元",
+      "changePct": -0.59,
+      "changeBasis": "相对前一交易日收盘价",
+      "session": "closed",
+      "quoteAt": "2026-10-13T04:00:00+08:00",
+      "signals": [],
+      "earnings": null,
+      "source": {
+        "document": "1012 macro1 速查 全.pdf",
+        "page": 2,
+        "usage": "仅引用标的代码与名称，数值和信号为人工构造"
+      },
+      "dataKind": "illustrative"
+    }
+  ],
+  "sectors": [
+    {
+      "id": "US.SMH",
+      "market": "US",
+      "ticker": "SMH",
+      "name": "半导体ETF",
+      "assetType": "etf",
+      "price": 596.39,
+      "decimals": 2,
+      "priceUnit": "currency",
+      "currency": "美元",
+      "changePct": 1.81,
+      "changeBasis": "相对前一交易日收盘价",
+      "session": "closed",
+      "quoteAt": "2026-10-13T04:00:00+08:00",
+      "signals": [
+        {
+          "type": "support",
+          "direction": "long",
+          "timeframe": "日线"
+        }
+      ],
+      "earnings": null,
+      "source": {
+        "document": "1012 US All ETF 1700 nyt 全.pdf",
+        "page": 91,
+        "usage": "仅引用标的代码与名称，数值和信号为人工构造"
+      },
+      "dataKind": "illustrative"
+    },
+    {
+      "id": "US.IGV",
+      "market": "US",
+      "ticker": "IGV",
+      "name": "软件ETF",
+      "assetType": "etf",
+      "price": 112.31,
+      "decimals": 2,
+      "priceUnit": "currency",
+      "currency": "美元",
+      "changePct": 0.88,
+      "changeBasis": "相对前一交易日收盘价",
+      "session": "closed",
+      "quoteAt": "2026-10-13T04:00:00+08:00",
+      "signals": [
+        {
+          "type": "trendStart",
+          "direction": "long",
+          "timeframe": "日线"
+        }
+      ],
+      "earnings": null,
+      "source": {
+        "document": "1012 US All ETF 1700 nyt 全.pdf",
+        "page": 18,
+        "usage": "仅引用标的代码与名称，数值和信号为人工构造"
+      },
+      "dataKind": "illustrative"
+    },
+    {
+      "id": "US.XLE",
+      "market": "US",
+      "ticker": "XLE",
+      "name": "能源ETF",
+      "assetType": "etf",
+      "price": 66.72,
+      "decimals": 2,
+      "priceUnit": "currency",
+      "currency": "美元",
+      "changePct": -0.07,
+      "changeBasis": "相对前一交易日收盘价",
+      "session": "closed",
+      "quoteAt": "2026-10-13T04:00:00+08:00",
+      "signals": [
+        {
+          "type": "pullback",
+          "direction": "short",
+          "timeframe": "日线"
+        }
+      ],
+      "earnings": null,
+      "source": {
+        "document": "1012 US All ETF 1700 nyt 全.pdf",
+        "page": 54,
+        "usage": "仅引用标的代码与名称，数值和信号为人工构造"
+      },
+      "dataKind": "illustrative"
+    },
+    {
+      "id": "US.XLV",
+      "market": "US",
+      "ticker": "XLV",
+      "name": "医疗保健ETF",
+      "assetType": "etf",
+      "price": 172.63,
+      "decimals": 2,
+      "priceUnit": "currency",
+      "currency": "美元",
+      "changePct": 1.23,
+      "changeBasis": "相对前一交易日收盘价",
+      "session": "closed",
+      "quoteAt": "2026-10-13T04:00:00+08:00",
+      "signals": [
+        {
+          "type": "pullback",
+          "direction": "long",
+          "timeframe": "日线"
+        }
+      ],
+      "earnings": null,
+      "source": {
+        "document": "1012 US All ETF 1700 nyt 全.pdf",
+        "page": 10,
+        "usage": "仅引用标的代码与名称，数值和信号为人工构造"
+      },
+      "dataKind": "illustrative"
+    },
+    {
+      "id": "US.IBIT",
+      "market": "US",
+      "ticker": "IBIT",
+      "name": "比特币ETF",
+      "assetType": "etf",
+      "price": 47.06,
+      "decimals": 2,
+      "priceUnit": "currency",
+      "currency": "美元",
+      "changePct": 1.23,
+      "changeBasis": "相对前一交易日收盘价",
+      "session": "closed",
+      "quoteAt": "2026-10-13T04:00:00+08:00",
+      "signals": [
+        {
+          "type": "breakout",
+          "direction": "long",
+          "timeframe": "日线"
+        }
+      ],
+      "earnings": null,
+      "source": {
+        "document": "1012 US All ETF 1700 nyt 全.pdf",
+        "page": 55,
+        "usage": "仅引用标的代码与名称，数值和信号为人工构造"
+      },
+      "dataKind": "illustrative"
+    },
+    {
+      "id": "CN.512760",
+      "market": "CN",
+      "ticker": "512760",
+      "name": "芯片ETF国泰",
+      "assetType": "etf",
+      "price": 0.959,
+      "decimals": 3,
+      "priceUnit": "currency",
+      "currency": "人民币",
+      "changePct": 1.75,
+      "changeBasis": "相对前一交易日收盘价",
+      "session": "regular",
+      "quoteAt": "2026-10-13T10:29:51+08:00",
+      "signals": [
+        {
+          "type": "support",
+          "direction": "long",
+          "timeframe": "日线"
+        }
+      ],
+      "earnings": null,
+      "source": {
+        "document": "1013 A Share 1320 ETF.pdf",
+        "page": 12,
+        "usage": "仅引用标的代码与名称，数值和信号为人工构造"
+      },
+      "dataKind": "illustrative"
+    },
+    {
+      "id": "CN.159516",
+      "market": "CN",
+      "ticker": "159516",
+      "name": "半导体设备ETF",
+      "assetType": "etf",
+      "price": 0.64,
+      "decimals": 3,
+      "priceUnit": "currency",
+      "currency": "人民币",
+      "changePct": 2.31,
+      "changeBasis": "相对前一交易日收盘价",
+      "session": "regular",
+      "quoteAt": "2026-10-13T10:29:30+08:00",
+      "signals": [
+        {
+          "type": "trendStart",
+          "direction": "long",
+          "timeframe": "日线"
+        }
+      ],
+      "earnings": null,
+      "source": {
+        "document": "1013 A Share 1320 ETF.pdf",
+        "page": 10,
+        "usage": "仅引用标的代码与名称，数值和信号为人工构造"
+      },
+      "dataKind": "illustrative"
+    },
+    {
+      "id": "CN.512880",
+      "market": "CN",
+      "ticker": "512880",
+      "name": "证券ETF国泰",
+      "assetType": "etf",
+      "price": 1.055,
+      "decimals": 3,
+      "priceUnit": "currency",
+      "currency": "人民币",
+      "changePct": 0.32,
+      "changeBasis": "相对前一交易日收盘价",
+      "session": "regular",
+      "quoteAt": "2026-10-13T10:29:26+08:00",
+      "signals": [
+        {
+          "type": "trendStart",
+          "direction": "long",
+          "timeframe": "日线"
+        }
+      ],
+      "earnings": null,
+      "source": {
+        "document": "1013 A Share 1320 ETF.pdf",
+        "page": 7,
+        "usage": "仅引用标的代码与名称，数值和信号为人工构造"
+      },
+      "dataKind": "illustrative"
+    },
+    {
+      "id": "HK.03067",
+      "market": "HK",
+      "ticker": "03067",
+      "name": "安硕恒生科技",
+      "assetType": "etf",
+      "price": 8.83,
+      "decimals": 2,
+      "priceUnit": "currency",
+      "currency": "港元",
+      "changePct": 1.04,
+      "changeBasis": "相对前一交易日收盘价",
+      "session": "regular",
+      "quoteAt": "2026-10-13T10:29:27+08:00",
+      "signals": [
+        {
+          "type": "support",
+          "direction": "long",
+          "timeframe": "日线"
+        }
+      ],
+      "earnings": null,
+      "source": {
+        "document": "1013 亚太 1625 全.pdf",
+        "page": 6,
+        "usage": "仅引用标的代码与名称，数值和信号为人工构造"
+      },
+      "dataKind": "illustrative"
+    },
+    {
+      "id": "HK.03069",
+      "market": "HK",
+      "ticker": "03069",
+      "name": "华夏恒生生科",
+      "assetType": "etf",
+      "price": 15.28,
+      "decimals": 2,
+      "priceUnit": "currency",
+      "currency": "港元",
+      "changePct": -1.33,
+      "changeBasis": "相对前一交易日收盘价",
+      "session": "regular",
+      "quoteAt": "2026-10-13T10:29:35+08:00",
+      "signals": [
+        {
+          "type": "trendStart",
+          "direction": "long",
+          "timeframe": "日线"
+        }
+      ],
+      "earnings": null,
+      "source": {
+        "document": "1013 亚太 1625 全.pdf",
+        "page": 10,
+        "usage": "仅引用标的代码与名称，数值和信号为人工构造"
+      },
+      "dataKind": "illustrative"
+    },
+    {
+      "id": "JP.223A",
+      "market": "JP",
+      "ticker": "223A",
+      "name": "人工智能与科技ETF",
+      "assetType": "etf",
+      "price": 1871.0,
+      "decimals": 0,
+      "priceUnit": "currency",
+      "currency": "日元",
+      "changePct": 1.54,
+      "changeBasis": "相对前一交易日收盘价",
+      "session": "regular",
+      "quoteAt": "2026-10-13T10:30:00+08:00",
+      "signals": [
+        {
+          "type": "trendStart",
+          "direction": "short",
+          "timeframe": "日线"
+        }
+      ],
+      "earnings": null,
+      "source": {
+        "document": "1013 亚太 1625 全.pdf",
+        "page": 8,
+        "usage": "仅引用标的代码与名称，数值和信号为人工构造"
+      },
+      "dataKind": "illustrative"
+    },
+    {
+      "id": "JP.2522",
+      "market": "JP",
+      "ticker": "2522",
+      "name": "自动化与机器人ETF",
+      "assetType": "etf",
+      "price": 9200.0,
+      "decimals": 0,
+      "priceUnit": "currency",
+      "currency": "日元",
+      "changePct": -0.05,
+      "changeBasis": "相对前一交易日收盘价",
+      "session": "regular",
+      "quoteAt": "2026-10-13T10:29:52+08:00",
+      "signals": [
+        {
+          "type": "support",
+          "direction": "short",
+          "timeframe": "日线"
+        }
+      ],
+      "earnings": null,
+      "source": {
+        "document": "1013 亚太 1625 全.pdf",
+        "page": 9,
+        "usage": "仅引用标的代码与名称，数值和信号为人工构造"
+      },
+      "dataKind": "illustrative"
+    }
+  ],
+  "stocks": [
+    {
+      "id": "CN.688072",
+      "market": "CN",
+      "ticker": "688072",
+      "name": "拓荆科技",
+      "assetType": "stock",
+      "price": 670.21,
+      "decimals": 2,
+      "priceUnit": "currency",
+      "currency": "人民币",
+      "changePct": 4.18,
+      "changeBasis": "相对前一交易日收盘价",
+      "session": "regular",
+      "quoteAt": "2026-10-13T10:29:33+08:00",
+      "signals": [
+        {
+          "type": "breakout",
+          "direction": "long",
+          "timeframe": "日线"
+        }
+      ],
+      "earnings": {
+        "date": "2026-10-19",
+        "status": "estimated",
+        "session": ""
+      },
+      "source": {
+        "document": "1013 A Share 1320 个股.pdf",
+        "page": 4,
+        "usage": "仅引用标的代码与名称，数值和信号为人工构造"
+      },
+      "dataKind": "illustrative"
+    },
+    {
+      "id": "HK.00700",
+      "market": "HK",
+      "ticker": "00700",
+      "name": "腾讯控股",
+      "assetType": "stock",
+      "price": 428.83,
+      "decimals": 2,
+      "priceUnit": "currency",
+      "currency": "港元",
+      "changePct": 0.44,
+      "changeBasis": "相对前一交易日收盘价",
+      "session": "regular",
+      "quoteAt": "2026-10-13T10:29:26+08:00",
+      "signals": [
+        {
+          "type": "pullback",
+          "direction": "long",
+          "timeframe": "日线"
+        }
+      ],
+      "earnings": {
+        "date": "2026-10-27",
+        "status": "estimated",
+        "session": ""
+      },
+      "source": {
+        "document": "1013 亚太 1625 全.pdf",
+        "page": 33,
+        "usage": "仅引用标的代码与名称，数值和信号为人工构造"
+      },
+      "dataKind": "illustrative",
+      "aliases": [
+        "700"
+      ]
+    },
+    {
+      "id": "JP.5803",
+      "market": "JP",
+      "ticker": "5803",
+      "name": "藤仓",
+      "assetType": "stock",
+      "price": 5132.0,
+      "decimals": 0,
+      "priceUnit": "currency",
+      "currency": "日元",
+      "changePct": -2.05,
+      "changeBasis": "相对前一交易日收盘价",
+      "session": "regular",
+      "quoteAt": "2026-10-13T10:29:48+08:00",
+      "signals": [
+        {
+          "type": "support",
+          "direction": "short",
+          "timeframe": "日线"
+        }
+      ],
+      "earnings": {
+        "date": "2026-10-29",
+        "status": "estimated",
+        "session": ""
+      },
+      "source": {
+        "document": "1013 亚太 1625 全.pdf",
+        "page": 37,
+        "usage": "仅引用标的代码与名称，数值和信号为人工构造"
+      },
+      "dataKind": "illustrative"
+    },
+    {
+      "id": "KR.000660",
+      "market": "KR",
+      "ticker": "000660",
+      "name": "SK海力士",
+      "assetType": "stock",
+      "price": 1454209.0,
+      "decimals": 0,
+      "priceUnit": "currency",
+      "currency": "韩元",
+      "changePct": 1.04,
+      "changeBasis": "相对前一交易日收盘价",
+      "session": "regular",
+      "quoteAt": "2026-10-13T10:29:29+08:00",
+      "signals": [
+        {
+          "type": "support",
+          "direction": "long",
+          "timeframe": "日线"
+        }
+      ],
+      "earnings": {
+        "date": "2026-10-25",
+        "status": "estimated",
+        "session": ""
+      },
+      "source": {
+        "document": "1013 亚太 1625 全.pdf",
+        "page": 75,
+        "usage": "仅引用标的代码与名称，数值和信号为人工构造"
+      },
+      "dataKind": "illustrative"
+    },
+    {
+      "id": "CRYPTO.BTCUSDT",
+      "market": "CRYPTO",
+      "ticker": "BTCUSDT",
+      "name": "比特币",
+      "assetType": "crypto",
+      "price": 83848.08,
+      "decimals": 2,
+      "priceUnit": "currency",
+      "currency": "USDT",
+      "changePct": 1.53,
+      "changeBasis": "过去24小时滚动涨跌幅",
+      "session": "continuous",
+      "quoteAt": "2026-10-13T10:29:41+08:00",
+      "signals": [
+        {
+          "type": "breakout",
+          "direction": "long",
+          "timeframe": "日线"
+        }
+      ],
+      "earnings": null,
+      "source": {
+        "document": "1012 macro1 速查 全.pdf",
+        "page": 60,
+        "usage": "仅引用标的代码与名称，数值和信号为人工构造"
+      },
+      "dataKind": "illustrative"
+    },
+    {
+      "id": "US.MSFT",
+      "market": "US",
+      "ticker": "MSFT",
+      "name": "微软",
+      "assetType": "stock",
+      "price": 547.11,
+      "decimals": 2,
+      "priceUnit": "currency",
+      "currency": "美元",
+      "changePct": 1.3,
+      "changeBasis": "相对前一交易日收盘价",
+      "session": "closed",
+      "quoteAt": "2026-10-13T04:00:00+08:00",
+      "signals": [
+        {
+          "type": "pullback",
+          "direction": "long",
+          "timeframe": "日线"
+        }
+      ],
+      "earnings": {
+        "date": "2026-10-18",
+        "status": "estimated",
+        "session": "盘前"
+      },
+      "source": {
+        "document": "1012 US 1630 nyt 个股.pdf",
+        "page": 150,
+        "usage": "仅引用标的代码与名称，数值和信号为人工构造"
+      },
+      "dataKind": "illustrative",
+      "aliases": [
+        "微软",
+        "MSFT"
+      ]
+    },
+    {
+      "id": "CN.688361",
+      "market": "CN",
+      "ticker": "688361",
+      "name": "中科飞测",
+      "assetType": "stock",
+      "price": 370.71,
+      "decimals": 2,
+      "priceUnit": "currency",
+      "currency": "人民币",
+      "changePct": 3.24,
+      "changeBasis": "相对前一交易日收盘价",
+      "session": "regular",
+      "quoteAt": "2026-10-13T10:29:36+08:00",
+      "signals": [
+        {
+          "type": "support",
+          "direction": "long",
+          "timeframe": "日线"
+        }
+      ],
+      "earnings": {
+        "date": "2026-10-22",
+        "status": "estimated",
+        "session": ""
+      },
+      "source": {
+        "document": "1013 A Share 1320 个股.pdf",
+        "page": 5,
+        "usage": "仅引用标的代码与名称，数值和信号为人工构造"
+      },
+      "dataKind": "illustrative"
+    },
+    {
+      "id": "HK.01810",
+      "market": "HK",
+      "ticker": "01810",
+      "name": "小米集团-W",
+      "assetType": "stock",
+      "price": 25.35,
+      "decimals": 2,
+      "priceUnit": "currency",
+      "currency": "港元",
+      "changePct": 1.51,
+      "changeBasis": "相对前一交易日收盘价",
+      "session": "regular",
+      "quoteAt": "2026-10-13T10:29:28+08:00",
+      "signals": [
+        {
+          "type": "trendStart",
+          "direction": "long",
+          "timeframe": "日线"
+        }
+      ],
+      "earnings": {
+        "date": "2026-10-30",
+        "status": "estimated",
+        "session": ""
+      },
+      "source": {
+        "document": "1013 亚太 1625 全.pdf",
+        "page": 26,
+        "usage": "仅引用标的代码与名称，数值和信号为人工构造"
+      },
+      "dataKind": "illustrative",
+      "aliases": [
+        "1810"
+      ]
+    },
+    {
+      "id": "JP.4063",
+      "market": "JP",
+      "ticker": "4063",
+      "name": "信越化学",
+      "assetType": "stock",
+      "price": 6126.0,
+      "decimals": 0,
+      "priceUnit": "currency",
+      "currency": "日元",
+      "changePct": 1.22,
+      "changeBasis": "相对前一交易日收盘价",
+      "session": "regular",
+      "quoteAt": "2026-10-13T10:29:38+08:00",
+      "signals": [
+        {
+          "type": "pullback",
+          "direction": "long",
+          "timeframe": "日线"
+        }
+      ],
+      "earnings": {
+        "date": "2026-10-16",
+        "status": "estimated",
+        "session": ""
+      },
+      "source": {
+        "document": "1013 亚太 1625 全.pdf",
+        "page": 19,
+        "usage": "仅引用标的代码与名称，数值和信号为人工构造"
+      },
+      "dataKind": "illustrative"
+    },
+    {
+      "id": "KR.005930",
+      "market": "KR",
+      "ticker": "005930",
+      "name": "三星电子",
+      "assetType": "stock",
+      "price": 234312.0,
+      "decimals": 0,
+      "priceUnit": "currency",
+      "currency": "韩元",
+      "changePct": 1.41,
+      "changeBasis": "相对前一交易日收盘价",
+      "session": "regular",
+      "quoteAt": "2026-10-13T10:29:52+08:00",
+      "signals": [
+        {
+          "type": "trendStart",
+          "direction": "long",
+          "timeframe": "日线"
+        }
+      ],
+      "earnings": {
+        "date": "2026-10-28",
+        "status": "estimated",
+        "session": ""
+      },
+      "source": {
+        "document": "1013 亚太 1625 全.pdf",
+        "page": 76,
+        "usage": "仅引用标的代码与名称，数值和信号为人工构造"
+      },
+      "dataKind": "illustrative"
+    },
+    {
+      "id": "US.META",
+      "market": "US",
+      "ticker": "META",
+      "name": "Meta",
+      "assetType": "stock",
+      "price": 751.39,
+      "decimals": 2,
+      "priceUnit": "currency",
+      "currency": "美元",
+      "changePct": 1.72,
+      "changeBasis": "相对前一交易日收盘价",
+      "session": "closed",
+      "quoteAt": "2026-10-13T04:00:00+08:00",
+      "signals": [
+        {
+          "type": "breakout",
+          "direction": "long",
+          "timeframe": "日线"
+        }
+      ],
+      "earnings": {
+        "date": "2026-10-21",
+        "status": "estimated",
+        "session": "盘后"
+      },
+      "source": {
+        "document": "1012 US 1630 nyt 个股.pdf",
+        "page": 5,
+        "usage": "仅引用标的代码与名称，数值和信号为人工构造"
+      },
+      "dataKind": "illustrative",
+      "aliases": [
+        "Meta",
+        "META"
+      ]
+    },
+    {
+      "id": "CN.300394",
+      "market": "CN",
+      "ticker": "300394",
+      "name": "天孚通信",
+      "assetType": "stock",
+      "price": 251.0,
+      "decimals": 2,
+      "priceUnit": "currency",
+      "currency": "人民币",
+      "changePct": 3.62,
+      "changeBasis": "相对前一交易日收盘价",
+      "session": "regular",
+      "quoteAt": "2026-10-13T10:29:26+08:00",
+      "signals": [
+        {
+          "type": "trendStart",
+          "direction": "long",
+          "timeframe": "日线"
+        }
+      ],
+      "earnings": {
+        "date": "2026-10-25",
+        "status": "estimated",
+        "session": ""
+      },
+      "source": {
+        "document": "1013 A Share 1320 个股.pdf",
+        "page": 8,
+        "usage": "仅引用标的代码与名称，数值和信号为人工构造"
+      },
+      "dataKind": "illustrative"
+    },
+    {
+      "id": "HK.00883",
+      "market": "HK",
+      "ticker": "00883",
+      "name": "中国海洋石油",
+      "assetType": "stock",
+      "price": 24.48,
+      "decimals": 2,
+      "priceUnit": "currency",
+      "currency": "港元",
+      "changePct": 0.74,
+      "changeBasis": "相对前一交易日收盘价",
+      "session": "regular",
+      "quoteAt": "2026-10-13T10:29:47+08:00",
+      "signals": [
+        {
+          "type": "breakout",
+          "direction": "long",
+          "timeframe": "日线"
+        }
+      ],
+      "earnings": {
+        "date": "2026-10-17",
+        "status": "estimated",
+        "session": ""
+      },
+      "source": {
+        "document": "1013 亚太 1625 全.pdf",
+        "page": 13,
+        "usage": "仅引用标的代码与名称，数值和信号为人工构造"
+      },
+      "dataKind": "illustrative",
+      "aliases": [
+        "883"
+      ]
+    },
+    {
+      "id": "JP.8035",
+      "market": "JP",
+      "ticker": "8035",
+      "name": "东京电子",
+      "assetType": "stock",
+      "price": 11753.0,
+      "decimals": 0,
+      "priceUnit": "currency",
+      "currency": "日元",
+      "changePct": -0.68,
+      "changeBasis": "相对前一交易日收盘价",
+      "session": "regular",
+      "quoteAt": "2026-10-13T10:29:39+08:00",
+      "signals": [
+        {
+          "type": "trendStart",
+          "direction": "short",
+          "timeframe": "日线"
+        }
+      ],
+      "earnings": {
+        "date": "2026-10-19",
+        "status": "estimated",
+        "session": ""
+      },
+      "source": {
+        "document": "1013 亚太 1625 全.pdf",
+        "page": 45,
+        "usage": "仅引用标的代码与名称，数值和信号为人工构造"
+      },
+      "dataKind": "illustrative"
+    },
+    {
+      "id": "KR.402340",
+      "market": "KR",
+      "ticker": "402340",
+      "name": "SK Square",
+      "assetType": "stock",
+      "price": 845626.0,
+      "decimals": 0,
+      "priceUnit": "currency",
+      "currency": "韩元",
+      "changePct": -1.22,
+      "changeBasis": "相对前一交易日收盘价",
+      "session": "regular",
+      "quoteAt": "2026-10-13T10:29:49+08:00",
+      "signals": [
+        {
+          "type": "pullback",
+          "direction": "short",
+          "timeframe": "日线"
+        }
+      ],
+      "earnings": {
+        "date": "2026-10-15",
+        "status": "estimated",
+        "session": ""
+      },
+      "source": {
+        "document": "1013 亚太 1625 全.pdf",
+        "page": 42,
+        "usage": "仅引用标的代码与名称，数值和信号为人工构造"
+      },
+      "dataKind": "illustrative"
+    },
+    {
+      "id": "CRYPTO.ZECUSDT",
+      "market": "CRYPTO",
+      "ticker": "ZECUSDT",
+      "name": "Zcash",
+      "assetType": "crypto",
+      "price": 1332.8,
+      "decimals": 2,
+      "priceUnit": "currency",
+      "currency": "USDT",
+      "changePct": -1.93,
+      "changeBasis": "过去24小时滚动涨跌幅",
+      "session": "continuous",
+      "quoteAt": "2026-10-13T10:29:28+08:00",
+      "signals": [
+        {
+          "type": "earlyExit",
+          "direction": "short",
+          "timeframe": "日线"
+        }
+      ],
+      "earnings": null,
+      "source": {
+        "document": "1012 macro1 速查 全.pdf",
+        "page": 59,
+        "usage": "仅引用标的代码与名称，数值和信号为人工构造"
+      },
+      "dataKind": "illustrative"
+    },
+    {
+      "id": "US.PLTR",
+      "market": "US",
+      "ticker": "PLTR",
+      "name": "Palantir",
+      "assetType": "stock",
+      "price": 212.16,
+      "decimals": 2,
+      "priceUnit": "currency",
+      "currency": "美元",
+      "changePct": 2.35,
+      "changeBasis": "相对前一交易日收盘价",
+      "session": "closed",
+      "quoteAt": "2026-10-13T04:00:00+08:00",
+      "signals": [
+        {
+          "type": "trendStart",
+          "direction": "long",
+          "timeframe": "日线"
+        }
+      ],
+      "earnings": {
+        "date": "2026-10-24",
+        "status": "estimated",
+        "session": "盘前"
+      },
+      "source": {
+        "document": "1012 US 1630 nyt 个股.pdf",
+        "page": 132,
+        "usage": "仅引用标的代码与名称，数值和信号为人工构造"
+      },
+      "dataKind": "illustrative",
+      "aliases": [
+        "Palantir",
+        "PLTR"
+      ]
+    },
+    {
+      "id": "CN.002371",
+      "market": "CN",
+      "ticker": "002371",
+      "name": "北方华创",
+      "assetType": "stock",
+      "price": 602.12,
+      "decimals": 2,
+      "priceUnit": "currency",
+      "currency": "人民币",
+      "changePct": 2.26,
+      "changeBasis": "相对前一交易日收盘价",
+      "session": "regular",
+      "quoteAt": "2026-10-13T10:29:39+08:00",
+      "signals": [
+        {
+          "type": "pullback",
+          "direction": "long",
+          "timeframe": "日线"
+        }
+      ],
+      "earnings": {
+        "date": "2026-10-28",
+        "status": "estimated",
+        "session": ""
+      },
+      "source": {
+        "document": "1013 A Share 1320 个股.pdf",
+        "page": 12,
+        "usage": "仅引用标的代码与名称，数值和信号为人工构造"
+      },
+      "dataKind": "illustrative"
+    },
+    {
+      "id": "HK.01398",
+      "market": "HK",
+      "ticker": "01398",
+      "name": "工商银行",
+      "assetType": "stock",
+      "price": 7.69,
+      "decimals": 2,
+      "priceUnit": "currency",
+      "currency": "港元",
+      "changePct": 0.49,
+      "changeBasis": "相对前一交易日收盘价",
+      "session": "regular",
+      "quoteAt": "2026-10-13T10:29:35+08:00",
+      "signals": [
+        {
+          "type": "trendStart",
+          "direction": "short",
+          "timeframe": "日线"
+        }
+      ],
+      "earnings": {
+        "date": "2026-10-20",
+        "status": "estimated",
+        "session": ""
+      },
+      "source": {
+        "document": "1013 亚太 1625 全.pdf",
+        "page": 14,
+        "usage": "仅引用标的代码与名称，数值和信号为人工构造"
+      },
+      "dataKind": "illustrative",
+      "aliases": [
+        "1398"
+      ]
+    },
+    {
+      "id": "JP.6981",
+      "market": "JP",
+      "ticker": "6981",
+      "name": "村田制作所",
+      "assetType": "stock",
+      "price": 7625.0,
+      "decimals": 0,
+      "priceUnit": "currency",
+      "currency": "日元",
+      "changePct": 1.22,
+      "changeBasis": "相对前一交易日收盘价",
+      "session": "regular",
+      "quoteAt": "2026-10-13T10:29:32+08:00",
+      "signals": [
+        {
+          "type": "support",
+          "direction": "long",
+          "timeframe": "日线"
+        }
+      ],
+      "earnings": {
+        "date": "2026-10-22",
+        "status": "estimated",
+        "session": ""
+      },
+      "source": {
+        "document": "1013 亚太 1625 全.pdf",
+        "page": 39,
+        "usage": "仅引用标的代码与名称，数值和信号为人工构造"
+      },
+      "dataKind": "illustrative"
+    },
+    {
+      "id": "US.NET",
+      "market": "US",
+      "ticker": "NET",
+      "name": "Cloudflare",
+      "assetType": "stock",
+      "price": 344.44,
+      "decimals": 2,
+      "priceUnit": "currency",
+      "currency": "美元",
+      "changePct": -1.0,
+      "changeBasis": "相对前一交易日收盘价",
+      "session": "closed",
+      "quoteAt": "2026-10-13T04:00:00+08:00",
+      "signals": [
+        {
+          "type": "trendStart",
+          "direction": "long",
+          "timeframe": "日线"
+        }
+      ],
+      "earnings": {
+        "date": "2026-10-27",
+        "status": "estimated",
+        "session": "盘后"
+      },
+      "source": {
+        "document": "1012 US 1630 nyt 个股.pdf",
+        "page": 9,
+        "usage": "仅引用标的代码与名称，数值和信号为人工构造"
+      },
+      "dataKind": "illustrative",
+      "aliases": [
+        "Cloudflare",
+        "NET"
+      ]
+    },
+    {
+      "id": "CN.002837",
+      "market": "CN",
+      "ticker": "002837",
+      "name": "英维克",
+      "assetType": "stock",
+      "price": 49.69,
+      "decimals": 2,
+      "priceUnit": "currency",
+      "currency": "人民币",
+      "changePct": 1.94,
+      "changeBasis": "相对前一交易日收盘价",
+      "session": "regular",
+      "quoteAt": "2026-10-13T10:29:39+08:00",
+      "signals": [
+        {
+          "type": "support",
+          "direction": "long",
+          "timeframe": "日线"
+        }
+      ],
+      "earnings": {
+        "date": "2026-10-15",
+        "status": "estimated",
+        "session": ""
+      },
+      "source": {
+        "document": "1013 A Share 1320 个股.pdf",
+        "page": 13,
+        "usage": "仅引用标的代码与名称，数值和信号为人工构造"
+      },
+      "dataKind": "illustrative"
+    },
+    {
+      "id": "HK.02388",
+      "market": "HK",
+      "ticker": "02388",
+      "name": "中银香港",
+      "assetType": "stock",
+      "price": 52.66,
+      "decimals": 2,
+      "priceUnit": "currency",
+      "currency": "港元",
+      "changePct": 0.84,
+      "changeBasis": "相对前一交易日收盘价",
+      "session": "regular",
+      "quoteAt": "2026-10-13T10:29:47+08:00",
+      "signals": [
+        {
+          "type": "pullback",
+          "direction": "long",
+          "timeframe": "日线"
+        }
+      ],
+      "earnings": {
+        "date": "2026-10-23",
+        "status": "estimated",
+        "session": ""
+      },
+      "source": {
+        "document": "1013 亚太 1625 全.pdf",
+        "page": 15,
+        "usage": "仅引用标的代码与名称，数值和信号为人工构造"
+      },
+      "dataKind": "illustrative",
+      "aliases": [
+        "2388"
+      ]
+    },
+    {
+      "id": "US.CRDO",
+      "market": "US",
+      "ticker": "CRDO",
+      "name": "Credo",
+      "assetType": "stock",
+      "price": 198.6,
+      "decimals": 2,
+      "priceUnit": "currency",
+      "currency": "美元",
+      "changePct": -0.71,
+      "changeBasis": "相对前一交易日收盘价",
+      "session": "closed",
+      "quoteAt": "2026-10-13T04:00:00+08:00",
+      "signals": [
+        {
+          "type": "trendStart",
+          "direction": "short",
+          "timeframe": "日线"
+        }
+      ],
+      "earnings": {
+        "date": "2026-10-30",
+        "status": "estimated",
+        "session": "盘前"
+      },
+      "source": {
+        "document": "1012 US 1630 nyt 个股.pdf",
+        "page": 55,
+        "usage": "仅引用标的代码与名称，数值和信号为人工构造"
+      },
+      "dataKind": "illustrative",
+      "aliases": [
+        "Credo",
+        "CRDO"
+      ]
+    },
+    {
+      "id": "CN.300476",
+      "market": "CN",
+      "ticker": "300476",
+      "name": "胜宏科技",
+      "assetType": "stock",
+      "price": 203.63,
+      "decimals": 2,
+      "priceUnit": "currency",
+      "currency": "人民币",
+      "changePct": -0.68,
+      "changeBasis": "相对前一交易日收盘价",
+      "session": "regular",
+      "quoteAt": "2026-10-13T10:29:53+08:00",
+      "signals": [
+        {
+          "type": "earlyExit",
+          "direction": "short",
+          "timeframe": "日线"
+        }
+      ],
+      "earnings": {
+        "date": "2026-10-18",
+        "status": "estimated",
+        "session": ""
+      },
+      "source": {
+        "document": "1013 A Share 1320 个股.pdf",
+        "page": 34,
+        "usage": "仅引用标的代码与名称，数值和信号为人工构造"
+      },
+      "dataKind": "illustrative"
+    },
+    {
+      "id": "HK.09988",
+      "market": "HK",
+      "ticker": "09988",
+      "name": "阿里巴巴-W",
+      "assetType": "stock",
+      "price": 108.5,
+      "decimals": 2,
+      "priceUnit": "currency",
+      "currency": "港元",
+      "changePct": -1.32,
+      "changeBasis": "相对前一交易日收盘价",
+      "session": "regular",
+      "quoteAt": "2026-10-13T10:29:40+08:00",
+      "signals": [
+        {
+          "type": "trendStart",
+          "direction": "short",
+          "timeframe": "日线"
+        }
+      ],
+      "earnings": {
+        "date": "2026-10-26",
+        "status": "estimated",
+        "session": ""
+      },
+      "source": {
+        "document": "1013 亚太 1625 全.pdf",
+        "page": 47,
+        "usage": "仅引用标的代码与名称，数值和信号为人工构造"
+      },
+      "dataKind": "illustrative",
+      "aliases": [
+        "9988"
+      ]
+    },
+    {
+      "id": "US.LLY",
+      "market": "US",
+      "ticker": "LLY",
+      "name": "礼来",
+      "assetType": "stock",
+      "price": 1191.73,
+      "decimals": 2,
+      "priceUnit": "currency",
+      "currency": "美元",
+      "changePct": 1.03,
+      "changeBasis": "相对前一交易日收盘价",
+      "session": "closed",
+      "quoteAt": "2026-10-13T04:00:00+08:00",
+      "signals": [
+        {
+          "type": "pullback",
+          "direction": "long",
+          "timeframe": "日线"
+        }
+      ],
+      "earnings": {
+        "date": "2026-10-17",
+        "status": "estimated",
+        "session": "盘后"
+      },
+      "source": {
+        "document": "1012 US 1630 nyt 个股.pdf",
+        "page": 137,
+        "usage": "仅引用标的代码与名称，数值和信号为人工构造"
+      },
+      "dataKind": "illustrative",
+      "aliases": [
+        "礼来",
+        "LLY"
+      ]
+    },
+    {
+      "id": "CN.002821",
+      "market": "CN",
+      "ticker": "002821",
+      "name": "凯莱英",
+      "assetType": "stock",
+      "price": 169.32,
+      "decimals": 2,
+      "priceUnit": "currency",
+      "currency": "人民币",
+      "changePct": -1.84,
+      "changeBasis": "相对前一交易日收盘价",
+      "session": "regular",
+      "quoteAt": "2026-10-13T10:30:00+08:00",
+      "signals": [
+        {
+          "type": "trendStart",
+          "direction": "short",
+          "timeframe": "日线"
+        }
+      ],
+      "earnings": {
+        "date": "2026-10-21",
+        "status": "estimated",
+        "session": ""
+      },
+      "source": {
+        "document": "1013 A Share 1320 个股.pdf",
+        "page": 19,
+        "usage": "仅引用标的代码与名称，数值和信号为人工构造"
+      },
+      "dataKind": "illustrative"
+    },
+    {
+      "id": "US.GEV",
+      "market": "US",
+      "ticker": "GEV",
+      "name": "GE Vernova",
+      "assetType": "stock",
+      "price": 1008.03,
+      "decimals": 2,
+      "priceUnit": "currency",
+      "currency": "美元",
+      "changePct": 1.69,
+      "changeBasis": "相对前一交易日收盘价",
+      "session": "closed",
+      "quoteAt": "2026-10-13T04:00:00+08:00",
+      "signals": [
+        {
+          "type": "support",
+          "direction": "long",
+          "timeframe": "日线"
+        }
+      ],
+      "earnings": {
+        "date": "2026-10-20",
+        "status": "estimated",
+        "session": "盘前"
+      },
+      "source": {
+        "document": "1012 US 1630 nyt 个股.pdf",
+        "page": 141,
+        "usage": "仅引用标的代码与名称，数值和信号为人工构造"
+      },
+      "dataKind": "illustrative",
+      "aliases": [
+        "GE Vernova",
+        "GEV"
+      ]
+    },
+    {
+      "id": "CN.688082",
+      "market": "CN",
+      "ticker": "688082",
+      "name": "盛美上海",
+      "assetType": "stock",
+      "price": 270.64,
+      "decimals": 2,
+      "priceUnit": "currency",
+      "currency": "人民币",
+      "changePct": 2.12,
+      "changeBasis": "相对前一交易日收盘价",
+      "session": "regular",
+      "quoteAt": "2026-10-13T10:29:39+08:00",
+      "signals": [
+        {
+          "type": "support",
+          "direction": "long",
+          "timeframe": "日线"
+        }
+      ],
+      "earnings": {
+        "date": "2026-10-24",
+        "status": "estimated",
+        "session": ""
+      },
+      "source": {
+        "document": "1013 A Share 1320 个股.pdf",
+        "page": 22,
+        "usage": "仅引用标的代码与名称，数值和信号为人工构造"
+      },
+      "dataKind": "illustrative"
+    },
+    {
+      "id": "US.AVGO",
+      "market": "US",
+      "ticker": "AVGO",
+      "name": "博通",
+      "assetType": "stock",
+      "price": 358.52,
+      "decimals": 2,
+      "priceUnit": "currency",
+      "currency": "美元",
+      "changePct": 1.18,
+      "changeBasis": "相对前一交易日收盘价",
+      "session": "closed",
+      "quoteAt": "2026-10-13T04:00:00+08:00",
+      "signals": [
+        {
+          "type": "support",
+          "direction": "long",
+          "timeframe": "日线"
+        }
+      ],
+      "earnings": {
+        "date": "2026-10-26",
+        "status": "estimated",
+        "session": "盘前"
+      },
+      "source": {
+        "document": "1012 US 1630 nyt 个股.pdf",
+        "page": 63,
+        "usage": "仅引用标的代码与名称，数值和信号为人工构造"
+      },
+      "dataKind": "illustrative",
+      "aliases": [
+        "博通",
+        "AVGO"
+      ]
+    },
+    {
+      "id": "US.TSM",
+      "market": "US",
+      "ticker": "TSM",
+      "name": "台积电",
+      "assetType": "stock",
+      "price": 386.59,
+      "decimals": 2,
+      "priceUnit": "currency",
+      "currency": "美元",
+      "changePct": -0.74,
+      "changeBasis": "相对前一交易日收盘价",
+      "session": "closed",
+      "quoteAt": "2026-10-13T04:00:00+08:00",
+      "signals": [
+        {
+          "type": "pullback",
+          "direction": "short",
+          "timeframe": "日线"
+        }
+      ],
+      "earnings": {
+        "date": "2026-10-29",
+        "status": "estimated",
+        "session": "盘后"
+      },
+      "source": {
+        "document": "1012 US 1630 nyt 个股.pdf",
+        "page": 105,
+        "usage": "仅引用标的代码与名称，数值和信号为人工构造"
+      },
+      "dataKind": "illustrative",
+      "aliases": [
+        "台积电",
+        "TSM"
+      ]
+    },
+    {
+      "id": "US.COIN",
+      "market": "US",
+      "ticker": "COIN",
+      "name": "Coinbase",
+      "assetType": "stock",
+      "price": 296.42,
+      "decimals": 2,
+      "priceUnit": "currency",
+      "currency": "美元",
+      "changePct": 2.19,
+      "changeBasis": "相对前一交易日收盘价",
+      "session": "closed",
+      "quoteAt": "2026-10-13T04:00:00+08:00",
+      "signals": [
+        {
+          "type": "breakout",
+          "direction": "long",
+          "timeframe": "日线"
+        }
+      ],
+      "earnings": {
+        "date": "2026-10-16",
+        "status": "estimated",
+        "session": "盘前"
+      },
+      "source": {
+        "document": "1012 US 1630 nyt 个股.pdf",
+        "page": 179,
+        "usage": "仅引用标的代码与名称，数值和信号为人工构造"
+      },
+      "dataKind": "illustrative",
+      "aliases": [
+        "Coinbase",
+        "COIN"
+      ]
+    }
+  ],
+  "profit": [
+    {
+      "id": "US.META",
+      "market": "US",
+      "ticker": "META",
+      "name": "Meta",
+      "assetType": "stock",
+      "price": 751.39,
+      "decimals": 2,
+      "priceUnit": "currency",
+      "currency": "美元",
+      "changePct": 1.72,
+      "changeBasis": "相对前一交易日收盘价",
+      "session": "closed",
+      "quoteAt": "2026-10-13T04:00:00+08:00",
+      "signals": [],
+      "earnings": {
+        "date": "2026-10-21",
+        "status": "estimated",
+        "session": "盘后"
+      },
+      "source": {
+        "document": "1012 US 1630 nyt 个股.pdf",
+        "page": 5,
+        "usage": "仅引用标的代码与名称，数值和信号为人工构造"
+      },
+      "dataKind": "illustrative",
+      "aliases": [
+        "Meta",
+        "META"
+      ],
+      "rule": "到达阻力位",
+      "ruleDetail": "参考阻力价位756.00美元"
+    },
+    {
+      "id": "US.NET",
+      "market": "US",
+      "ticker": "NET",
+      "name": "Cloudflare",
+      "assetType": "stock",
+      "price": 344.44,
+      "decimals": 2,
+      "priceUnit": "currency",
+      "currency": "美元",
+      "changePct": -1.0,
+      "changeBasis": "相对前一交易日收盘价",
+      "session": "closed",
+      "quoteAt": "2026-10-13T04:00:00+08:00",
+      "signals": [],
+      "earnings": {
+        "date": "2026-10-27",
+        "status": "estimated",
+        "session": "盘后"
+      },
+      "source": {
+        "document": "1012 US 1630 nyt 个股.pdf",
+        "page": 9,
+        "usage": "仅引用标的代码与名称，数值和信号为人工构造"
+      },
+      "dataKind": "illustrative",
+      "aliases": [
+        "Cloudflare",
+        "NET"
+      ],
+      "rule": "高乖离后转弱",
+      "ruleDetail": "触发高乖离转弱观察条件"
+    },
+    {
+      "id": "CN.688072",
+      "market": "CN",
+      "ticker": "688072",
+      "name": "拓荆科技",
+      "assetType": "stock",
+      "price": 670.21,
+      "decimals": 2,
+      "priceUnit": "currency",
+      "currency": "人民币",
+      "changePct": 4.18,
+      "changeBasis": "相对前一交易日收盘价",
+      "session": "regular",
+      "quoteAt": "2026-10-13T10:29:33+08:00",
+      "signals": [],
+      "earnings": {
+        "date": "2026-10-19",
+        "status": "estimated",
+        "session": ""
+      },
+      "source": {
+        "document": "1013 A Share 1320 个股.pdf",
+        "page": 4,
+        "usage": "仅引用标的代码与名称，数值和信号为人工构造"
+      },
+      "dataKind": "illustrative",
+      "rule": "超过10日线8%",
+      "ruleDetail": "价格超过10日指数均线8%"
+    },
+    {
+      "id": "HK.00883",
+      "market": "HK",
+      "ticker": "00883",
+      "name": "中国海洋石油",
+      "assetType": "stock",
+      "price": 24.48,
+      "decimals": 2,
+      "priceUnit": "currency",
+      "currency": "港元",
+      "changePct": 0.74,
+      "changeBasis": "相对前一交易日收盘价",
+      "session": "regular",
+      "quoteAt": "2026-10-13T10:29:47+08:00",
+      "signals": [],
+      "earnings": {
+        "date": "2026-10-17",
+        "status": "estimated",
+        "session": ""
+      },
+      "source": {
+        "document": "1013 亚太 1625 全.pdf",
+        "page": 13,
+        "usage": "仅引用标的代码与名称，数值和信号为人工构造"
+      },
+      "dataKind": "illustrative",
+      "aliases": [
+        "883"
+      ],
+      "rule": "到达阻力位",
+      "ruleDetail": "参考阻力价位24.50港元"
+    },
+    {
+      "id": "JP.4063",
+      "market": "JP",
+      "ticker": "4063",
+      "name": "信越化学",
+      "assetType": "stock",
+      "price": 6126.0,
+      "decimals": 0,
+      "priceUnit": "currency",
+      "currency": "日元",
+      "changePct": 1.22,
+      "changeBasis": "相对前一交易日收盘价",
+      "session": "regular",
+      "quoteAt": "2026-10-13T10:29:38+08:00",
+      "signals": [],
+      "earnings": {
+        "date": "2026-10-16",
+        "status": "estimated",
+        "session": ""
+      },
+      "source": {
+        "document": "1013 亚太 1625 全.pdf",
+        "page": 19,
+        "usage": "仅引用标的代码与名称，数值和信号为人工构造"
+      },
+      "dataKind": "illustrative",
+      "rule": "涨后回踩21日线",
+      "ruleDetail": "上涨后首次回踩21日指数均线"
+    },
+    {
+      "id": "CRYPTO.BTCUSDT",
+      "market": "CRYPTO",
+      "ticker": "BTCUSDT",
+      "name": "比特币",
+      "assetType": "crypto",
+      "price": 83848.08,
+      "decimals": 2,
+      "priceUnit": "currency",
+      "currency": "USDT",
+      "changePct": 1.53,
+      "changeBasis": "过去24小时滚动涨跌幅",
+      "session": "continuous",
+      "quoteAt": "2026-10-13T10:29:41+08:00",
+      "signals": [],
+      "earnings": null,
+      "source": {
+        "document": "1012 macro1 速查 全.pdf",
+        "page": 60,
+        "usage": "仅引用标的代码与名称，数值和信号为人工构造"
+      },
+      "dataKind": "illustrative",
+      "rule": "超过10日线8%",
+      "ruleDetail": "价格超过10日指数均线8%"
+    }
+  ],
+  "stop": [
+    {
+      "id": "US.CRDO",
+      "market": "US",
+      "ticker": "CRDO",
+      "name": "Credo",
+      "assetType": "stock",
+      "price": 198.6,
+      "decimals": 2,
+      "priceUnit": "currency",
+      "currency": "美元",
+      "changePct": -0.71,
+      "changeBasis": "相对前一交易日收盘价",
+      "session": "closed",
+      "quoteAt": "2026-10-13T04:00:00+08:00",
+      "signals": [],
+      "earnings": {
+        "date": "2026-10-30",
+        "status": "estimated",
+        "session": "盘前"
+      },
+      "source": {
+        "document": "1012 US 1630 nyt 个股.pdf",
+        "page": 55,
+        "usage": "仅引用标的代码与名称，数值和信号为人工构造"
+      },
+      "dataKind": "illustrative",
+      "aliases": [
+        "Credo",
+        "CRDO"
+      ],
+      "rule": "跌破支撑位",
+      "ruleDetail": "参考支撑价位200.00美元"
+    },
+    {
+      "id": "CN.002821",
+      "market": "CN",
+      "ticker": "002821",
+      "name": "凯莱英",
+      "assetType": "stock",
+      "price": 169.32,
+      "decimals": 2,
+      "priceUnit": "currency",
+      "currency": "人民币",
+      "changePct": -1.84,
+      "changeBasis": "相对前一交易日收盘价",
+      "session": "regular",
+      "quoteAt": "2026-10-13T10:30:00+08:00",
+      "signals": [],
+      "earnings": {
+        "date": "2026-10-21",
+        "status": "estimated",
+        "session": ""
+      },
+      "source": {
+        "document": "1013 A Share 1320 个股.pdf",
+        "page": 19,
+        "usage": "仅引用标的代码与名称，数值和信号为人工构造"
+      },
+      "dataKind": "illustrative",
+      "rule": "跌破50日线",
+      "ruleDetail": "最新价跌破50日简单均线"
+    },
+    {
+      "id": "HK.09988",
+      "market": "HK",
+      "ticker": "09988",
+      "name": "阿里巴巴-W",
+      "assetType": "stock",
+      "price": 108.5,
+      "decimals": 2,
+      "priceUnit": "currency",
+      "currency": "港元",
+      "changePct": -1.32,
+      "changeBasis": "相对前一交易日收盘价",
+      "session": "regular",
+      "quoteAt": "2026-10-13T10:29:40+08:00",
+      "signals": [],
+      "earnings": {
+        "date": "2026-10-26",
+        "status": "estimated",
+        "session": ""
+      },
+      "source": {
+        "document": "1013 亚太 1625 全.pdf",
+        "page": 47,
+        "usage": "仅引用标的代码与名称，数值和信号为人工构造"
+      },
+      "dataKind": "illustrative",
+      "aliases": [
+        "9988"
+      ],
+      "rule": "亏损10%",
+      "ruleDetail": "相对示例持仓成本亏损达到10%"
+    },
+    {
+      "id": "JP.8035",
+      "market": "JP",
+      "ticker": "8035",
+      "name": "东京电子",
+      "assetType": "stock",
+      "price": 11753.0,
+      "decimals": 0,
+      "priceUnit": "currency",
+      "currency": "日元",
+      "changePct": -0.68,
+      "changeBasis": "相对前一交易日收盘价",
+      "session": "regular",
+      "quoteAt": "2026-10-13T10:29:39+08:00",
+      "signals": [],
+      "earnings": {
+        "date": "2026-10-19",
+        "status": "estimated",
+        "session": ""
+      },
+      "source": {
+        "document": "1013 亚太 1625 全.pdf",
+        "page": 45,
+        "usage": "仅引用标的代码与名称，数值和信号为人工构造"
+      },
+      "dataKind": "illustrative",
+      "rule": "跌破支撑位",
+      "ruleDetail": "参考支撑价位11800日元"
+    },
+    {
+      "id": "KR.402340",
+      "market": "KR",
+      "ticker": "402340",
+      "name": "SK Square",
+      "assetType": "stock",
+      "price": 845626.0,
+      "decimals": 0,
+      "priceUnit": "currency",
+      "currency": "韩元",
+      "changePct": -1.22,
+      "changeBasis": "相对前一交易日收盘价",
+      "session": "regular",
+      "quoteAt": "2026-10-13T10:29:49+08:00",
+      "signals": [],
+      "earnings": {
+        "date": "2026-10-15",
+        "status": "estimated",
+        "session": ""
+      },
+      "source": {
+        "document": "1013 亚太 1625 全.pdf",
+        "page": 42,
+        "usage": "仅引用标的代码与名称，数值和信号为人工构造"
+      },
+      "dataKind": "illustrative",
+      "rule": "跌破50日线",
+      "ruleDetail": "最新价跌破50日简单均线"
+    },
+    {
+      "id": "CRYPTO.ETHUSDT",
+      "market": "CRYPTO",
+      "ticker": "ETHUSDT",
+      "name": "以太坊",
+      "assetType": "crypto",
+      "price": 2607.06,
+      "decimals": 2,
+      "priceUnit": "currency",
+      "currency": "USDT",
+      "changePct": 1.97,
+      "changeBasis": "过去24小时滚动涨跌幅",
+      "session": "continuous",
+      "quoteAt": "2026-10-13T10:29:42+08:00",
+      "signals": [],
+      "earnings": null,
+      "source": {
+        "document": "1012 macro1 速查 全.pdf",
+        "page": 63,
+        "usage": "仅引用标的代码与名称，数值和信号为人工构造"
+      },
+      "dataKind": "illustrative",
+      "rule": "亏损10%",
+      "ruleDetail": "相对示例持仓成本亏损达到10%"
+    }
+  ]
+}
